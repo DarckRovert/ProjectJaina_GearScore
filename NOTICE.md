@@ -1,20 +1,28 @@
-# Aviso Legal y Créditos de Código de Terceros — ProjectJaina_GearScore
+# 📜 Aviso Legal y Atribución — ProjectJaina_GearScore
 
-Este repositorio forma parte del catálogo comunitario de soporte para el ecosistema **Project Jaina - Theramore**.
-Agrupa y unifica la suite de **GearScore 3.1.16** y su biblioteca de inspección aritmética **BonusScanner 5.3** para el cliente World of Warcraft 3.3.5a (Build 12340).
-
----
-
-## 1. Titularidad de Propiedad Intelectual & Autores Originales
-
-* **GearScore:** Desarrollado originalmente por **Mirrikat45**.
-* **BonusScanner Continued:** Desarrollado y mantenido originalmente por **Tristanian**, con contribuciones de **bjoernh**, **kergoth**, **bstack** y adaptaciones por **Mirrikat45 / Arxkanite**.
-* **Bibliotecas Embebidas:** `LibQTip-1.0`, `LibQTipClick-1.1` (bajo sus respectivas licencias de código abierto detalladas en `GearScore/Libs/`).
+Este repositorio forma parte del ecosistema oficial de **Project Jaina**.
+Contiene Calculadora e inspectora de puntuación de equipo con escaneo de gemas y encantamientos, corregida para compatibilidad estricta con FrameXML 3.3.5a. para el cliente World of Warcraft 3.3.5a (Build 12340).
 
 ---
 
-## 2. Propósito y Alcance
+## 1. Autoría y Desarrollo Oficial
+* **Desarrollador Principal:** DarckRovert (Ingame: `Elnazzareno`) & Antigravity (Mythos 5)
+* **Ecosistema:** [Project Jaina Oficial](https://darckrovert.github.io/ProjectJaina_Web/)
+* **Repositorio Oficial:** [DarckRovert/ProjectJaina_GearScore](https://github.com/DarckRovert/ProjectJaina_GearScore)
 
-1. GearScore depende funcionalmente de `BonusScanner` para realizar el cálculo de gemas, encantamientos y atributos acumulativos sin provocar demoras en el hilo principal del cliente.
-2. Project Jaina distribuye ambos componentes unificados en este repositorio para asegurar que ningún jugador instale GearScore de manera huérfana, eliminando errores de dependencia rota.
-3. El uso es completamente libre y no comercial.
+---
+
+## 2. Arquitectura y Protocolo Autoritativo
+* **Prefijo de Red:** `N/A (Inspección local de ítems)`
+* **Integración Servidor:** `N/A (Cliente local)`
+* **Variables Guardadas:** `GS_Settings`
+* **Comandos Slash:** `/gs, /gearscore`
+
+---
+
+## 3. Cumplimiento de Políticas de Interfaz (Blizzard Custom UI Policy)
+En estricto cumplimiento de la Política de Interfaz de Usuario Personalizada de Blizzard Entertainment (2009):
+1. **Gratuito y Abierto:** Este software es completamente gratuito y de código abierto para la comunidad de jugadores.
+2. **Sin Alteración de Binarios:** No realiza ingeniería inversa, inyección de código ni altera binarios del juego (`WoW.exe`).
+3. **Aislamiento FrameXML:** Respeta el aislamiento de ejecución en FrameXML y no genera taint en subsistemas protegidos de combate.
+4. **Sin Publicidad ni Cobro:** No incluye anuncios publicitarios ni solicita compensación monetaria directa para el uso de sus funciones in-game.
