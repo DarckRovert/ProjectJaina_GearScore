@@ -1,10 +1,10 @@
 # 🔌 Especificación Técnica y API — ProjectJaina_GearScore
 
 [![GitHub](https://img.shields.io/badge/GitHub-DarckRovert%2FProjectJaina_GearScore-black?logo=github)](https://github.com/DarckRovert/ProjectJaina_GearScore)
-[![Ecosistema](https://img.shields.io/badge/Ecosistema-WoW%20Per%C3%BA%203.3.5a-gold.svg)](https://darckrovert.github.io/ProjectJaina_Web/)
+[![Ecosistema](https://img.shields.io/badge/Ecosistema-Project%20Jaina%203.3.5a-gold.svg)](https://darckrovert.github.io/ProjectJaina_Web/)
 
 ## 📌 Resumen Arquitectónico
-Monorepositorio unificado de GearScore (3.1.16-WP) y BonusScanner (5.3) optimizado para el cálculo exacto de poder de equipo sin bloqueos de caché de ítems.
+Monorepositorio unificado de GearScore (3.1.16-Jaina) y BonusScanner (5.3) optimizado para el cálculo exacto de poder de equipo sin bloqueos de caché de ítems.
 
 - **Rol en el Ecosistema:** Suite Comunitaria Monorepo — Puntuación de Equipo
 - **Archivo Principal TOC:** `GearScore.toc`
