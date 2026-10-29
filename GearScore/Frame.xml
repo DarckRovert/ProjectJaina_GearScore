@@ -1,4 +1,4 @@
-﻿<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.blizzard.com/wow/ui/">
+<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.blizzard.com/wow/ui/">
 
 			<Button name="GS_GearSlotTemplate" virtual = "true" toplevel="true" movable="true" enableMouse="true">
 				<Backdrop bgFile="Interface\PaperDoll\UI-PaperDoll-Slot-Head.blp" />
@@ -852,7 +852,7 @@
 			<Button name="$parentTab2" inherits="CharacterFrameTabButtonTemplate" id="2" text="Experience">
 				<Anchors>
 					<Anchor point="TOPLEFT" relativeTo="GS_DisplayFrameTab1" relativePoint="TOPRIGHT">
-						<Offset x="-14" y="" />
+						<Offset x="-14" y="0" />
 					</Anchor>
 				</Anchors>
 				<Scripts>
@@ -1562,9 +1562,6 @@
 			GearScore_DisplayDatabase(GS_DisplayedGroup, GS_SortedType, 1, (GS_StartPage - (25  * delta)))
 			--print(self, delta)
 		</OnMouseWheel>
-		<OnEscapePressed>
-			self:Hide()
-		</OnEscapePressed>
 		<OnLoad>
 		tinsert(UISpecialFrames, this:GetName());
 			self:Hide()
@@ -1625,15 +1622,15 @@
 				<Scripts><OnClick>GearScore_HideDatabase(); GearScore_DisplayDatabase("Party", SortType); PanelTemplates_SetTab(GS_DatabaseFrame, 1)</OnClick></Scripts>
 			</Button>
 			<Button name="$parentTab2" inherits="CharacterFrameTabButtonTemplate" id="2" text="Guild">
-				<Anchors><Anchor point="TOPLEFT" relativeTo="GS_DatabaseFrameTab1" relativePoint="TOPRIGHT"><Offset x="-14" y="" /></Anchor></Anchors>
+				<Anchors><Anchor point="TOPLEFT" relativeTo="GS_DatabaseFrameTab1" relativePoint="TOPRIGHT"><Offset x="-14" y="0" /></Anchor></Anchors>
 				<Scripts><OnClick>GearScore_HideDatabase(); GearScore_DisplayDatabase("Guild", SortType); PanelTemplates_SetTab(GS_DatabaseFrame, 2)</OnClick></Scripts>
 			</Button>
 			<Button name="$parentTab3" inherits="CharacterFrameTabButtonTemplate" id="3" text="Friends">
-				<Anchors><Anchor point="TOPLEFT" relativeTo="GS_DatabaseFrameTab2" relativePoint="TOPRIGHT"><Offset x="-14" y="" /></Anchor></Anchors>
+				<Anchors><Anchor point="TOPLEFT" relativeTo="GS_DatabaseFrameTab2" relativePoint="TOPRIGHT"><Offset x="-14" y="0" /></Anchor></Anchors>
 				<Scripts><OnClick>GearScore_HideDatabase(); GearScore_DisplayDatabase("Friends", SortType); PanelTemplates_SetTab(GS_DatabaseFrame, 3)</OnClick></Scripts>
 			</Button>
 			<Button name="$parentTab4" inherits="CharacterFrameTabButtonTemplate" id="4" text="All">
-				<Anchors><Anchor point="TOPLEFT" relativeTo="GS_DatabaseFrameTab3" relativePoint="TOPRIGHT"><Offset x="-14" y="" /></Anchor></Anchors>
+				<Anchors><Anchor point="TOPLEFT" relativeTo="GS_DatabaseFrameTab3" relativePoint="TOPRIGHT"><Offset x="-14" y="0" /></Anchor></Anchors>
 				<Scripts><OnClick>GearScore_HideDatabase(); GearScore_DisplayDatabase("All", SortType); PanelTemplates_SetTab(GS_DatabaseFrame, 4)</OnClick></Scripts>
 			</Button>
 
