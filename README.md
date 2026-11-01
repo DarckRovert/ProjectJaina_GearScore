@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DarckRovert/ProjectJaina_Web/main/images/project_jaina_official_logo.jpg" alt="Project JAIna Official Crest" width="180">
+</p>
+
 # 🇵🇪 Project Jaina — GearScore Suite (v3.1.16-Jaina + BonusScanner 5.3)
 
 **Versión:** 3.1.16-Jaina  
