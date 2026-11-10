@@ -31,8 +31,8 @@ L["BONUSSCANNER_NAMES"] = {
 	DODGE 			= "Esquive ",
 	PARRY 			= "Score de parade ",
 	RESILIENCE 		= "Score de r\195\169silience ", 
-	DMGWPN 			= "Augmentation de d\195\169\g\195\162ts en m\195\170l\195\169e ", -- Might of Cenarius etc.
-	RANGEDDMG 		= "D\195\169\g\195\162ts de l'arme \195\160 distance ",
+	DMGWPN 			= "Augmentation de d\195\169g\195\162ts en m\195\170l\195\169e ", -- Might of Cenarius etc.
+	RANGEDDMG 		= "D\195\169g\195\162ts de l'arme \195\160 distance ",
 	ARMORPEN 		= "P\195\169n\195\169tration d'armure ",
 	
 -- DPS
@@ -59,13 +59,13 @@ L["BONUSSCANNER_NAMES"] = {
 	HASTE 			= "Score de h\195\162te ",
 
 --Spell Damage/healing
-	DMGUNDEAD		= "D\195\169\g\195\162ts des Sorts contre les morts-vivants ",
-	ARCANEDMG 		= "D\195\169\g\195\162ts d'Arcane ",
-	FIREDMG 		= "D\195\169\g\195\162ts de Feu ",
-	FROSTDMG 		= "D\195\169\g\195\162ts de Givre ",
-	HOLYDMG 		= "D\195\169\g\195\162ts du Sacr\195\169 ",
-	NATUREDMG 		= "D\195\169\g\195\162ts de Nature ",
-	SHADOWDMG 		= "D\195\169\g\195\162ts d'Ombre ",
+	DMGUNDEAD		= "D\195\169g\195\162ts des Sorts contre les morts-vivants ",
+	ARCANEDMG 		= "D\195\169g\195\162ts d'Arcane ",
+	FIREDMG 		= "D\195\169g\195\162ts de Feu ",
+	FROSTDMG 		= "D\195\169g\195\162ts de Givre ",
+	HOLYDMG 		= "D\195\169g\195\162ts du Sacr\195\169 ",
+	NATUREDMG 		= "D\195\169g\195\162ts de Nature ",
+	SHADOWDMG 		= "D\195\169g\195\162ts d'Ombre ",
 	SPELLPEN 		= "P\195\169n\195\169tration des sorts ",
 	SPELLPOW 		= "Puissance des sorts",
 
@@ -166,7 +166,7 @@ L["BONUSSCANNER_PATTERNS_PASSIVE"] = {
 	
 -- Multibonus Equip patterns
 	{ pattern = "Increases spell power of all party members within %d+ yards by up to (%d+)%.", effect = "SPELLPOW" },
-	--{ pattern = "Augmente les soins prodigu\195\169s d'un maximum de (%d+) et les d\195\169\g\195\162ts d'un maximum de (%d+) pour tous les sorts et effets magiques%.", effect = {"HEAL","DMG"} },
+	--{ pattern = "Augmente les soins prodigu\195\169s d'un maximum de (%d+) et les d\195\169g\195\162ts d'un maximum de (%d+) pour tous les sorts et effets magiques%.", effect = {"HEAL","DMG"} },
 	--{ pattern = "Increases your pet's resistances by 130 and increases your spell damage by up to (%d+)%.", effect = "DMG" }, -- Void Star Talisman
 	--{ pattern = "Increases your spell damage by up to (%d+) and your healing by up to (%d+)%.", effect = {"DMG","HEAL"} },
 	--{ pattern = "Increases healing done by magical spells and effects of all party members within %d+ yards by up to (%d+)%. ", effect = "HEAL" },
@@ -230,8 +230,8 @@ L["BONUSSCANNER_PATTERNS_GENERIC_LOOKUP"] = {
 	["la puissance d'attaque"] = "ATTACKPOWER",
 	["la puissance d'attaque lorsque vous combattez les morts-vivants"] = "ATTACKPOWERUNDEAD",
 	["la puissance d'attaque pour les formes de f\195\169lin, d'ours, d'ours redoutable et de s\195\169l\195\169nien uniquement"] = "ATTACKPOWERFERAL",
-	["aux d\195\169\g\195\162ts des armes"] = "DMGWPN",
-	["aux d\195\169\g\195\162ts de l'arme"] = "DMGWPN", -- bonus enchantement arme 1M
+	["aux d\195\169g\195\162ts des armes"] = "DMGWPN",
+	["aux d\195\169g\195\162ts de l'arme"] = "DMGWPN", -- bonus enchantement arme 1M
 
 	-- TBC Patterns Generic/Gems/Sockets
 
@@ -250,7 +250,7 @@ L["BONUSSCANNER_PATTERNS_GENERIC_LOOKUP"] = {
 	["au score d'esquive"] = "DODGE",
 	["au score de parade"] = "PARRY",
 	["au score de r\195\169silience"] = "RESILIENCE",
-	["d\195\169\g\195\162ts subis en m\195\169l\195\169e"] = "DMGWPN",
+	["d\195\169g\195\162ts subis en m\195\169l\195\169e"] = "DMGWPN",
 	["au score d'expertise"] = "EXPERTISE",
 
 	-- End TBC Patterns
